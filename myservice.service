@@ -1,0 +1,9 @@
+[Unit]
+Description=IP service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/myscript.sh
+
+[Install]
+WantedBy=multi-user.target
